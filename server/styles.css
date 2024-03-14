@@ -1,0 +1,163 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+    background-color: #131313;
+  }
+  
+  /* Стили для header */
+  header {
+    background-color: #0f0f0f;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-session {
+      border: 1px solid #fddd;
+      width: 20px;
+      height: 40px;
+  }
+  
+  .user-info button {
+    /* Стили для кнопки авторизации */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6d6d6d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .services ul {
+    /* Стили для блока сервисов */
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  .a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .services ul li {
+    margin-right: 15px;
+  }
+
+  .JDH {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+  
+  h1 {
+  
+  text-align: center;
+  
+  
+  }
+
+
+  .user-info {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    max-width: 300px; /* Укажите максимальную ширину блока, чтобы предотвратить растягивание на больших экранах */
+  }
+  
+  .user-info form {
+    margin-top: 10px;
+  }
+  
+  .user-info a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000000; /* Цвет ссылки */
+  }
+  
+  .user-info a:hover {
+    text-decoration: underline;
+  }
+
+  #trademc-buyform {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    border-radius: 0px 10px 10px 10px;
+    padding: 20px;
+    background-color: #353535e7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Чтобы блок был по центру */
+    margin-top: 20px; /* Добавлен отступ сверху */
+    color: #fff;
+  }
+  
+  #trademc-buyform button,
+  #trademc-buyform input,
+  #trademc-buyform select {
+    /* Общие стили для кнопок, строк ввода и выпадающего списка */
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Занимать всю доступную ширину */
+  }
+  
+  #trademc-buyform button {
+    /* Стили для кнопок */
+    background-color: #9900ff; /* Замените цветом по вашему выбору */
+    color: #fff;
+  }
+  
+  #trademc-buyform input {
+    /* Стили для строк ввода */
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  #trademc-buyform button:hover {
+    background-color: #8f8f8f; /* Замените цветом по вашему выбору */
+  }
+  
+  #launcher-info {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px; /* Добавлен отступ сверху */
+  }
+  
+  #launcher-info p {
+    margin-bottom: 10px;
+  }
+  
+  #launcher-info .download-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #007bff; /* Цвет кнопки */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #launcher-info .download-button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+  }
+  

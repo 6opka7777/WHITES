@@ -1,0 +1,181 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+    background-color: #131313;
+  }
+  
+  /* Стили для header */
+  header {
+    background-color: #0f0f0f;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-session {
+      border: 1px solid #fddd;
+      width: 20px;
+      height: 40px;
+  }
+  
+  .user-info button {
+    /* Стили для кнопки авторизации */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6d6d6d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .services ul {
+    /* Стили для блока сервисов */
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+  }
+
+  .a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .services ul li {
+    margin-right: 15px;
+  }
+
+.track {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    width: 40%;
+    padding: 25px;
+    margin: 20px 40%; /* Set top and bottom margin to 20px, and left-right margin to auto */
+}
+
+
+audio {
+    width: 100%;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.lyrics {
+    display: none;
+}
+
+/* Стили для бокового меню */
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+/* Стили для информационной области */
+.info {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  text-align: center; /* Центрирование текста внутри блока */
+}
+
+
+.search-bar {
+    /* Other styles for the search bar */
+    margin: 0 50%; /* Set top and bottom margin to 0 and left-right margin to auto */
+    display: block; /* Ensures it behaves as a block element for centering */
+    width: 50%; /* Adjust the width as needed */"
+
+    
+}
+
+.find {
+    border: 1px solid #ddd;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+
+.search-button {
+    border: 1px solid #ddd;
+    width: 15%;
+    height: 30px;
+    
+}
+
+.JDH {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+h1 {
+
+text-align: center;
+
+
+}
+
+
+.user-info {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  max-width: 300px; /* Укажите максимальную ширину блока, чтобы предотвратить растягивание на больших экранах */
+}
+
+.user-info form {
+  margin-top: 10px;
+}
+
+.user-info a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000000; /* Цвет ссылки */
+}
+
+.user-info a:hover {
+  text-decoration: underline;
+}
